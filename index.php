@@ -9,13 +9,14 @@
     </head>
     <body>
 
-    <nav class="navbar navbar-inverse" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
 
         <div class="my_container">
 
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">Student Course Assignment</a>
             </div>
+
             <div>
                 <ul class="nav navbar-nav">
 
@@ -64,7 +65,7 @@
                         </div>
                         <div class="col-lg-offset-1"></div>
                         <div class="col-lg-4">
-                            <h3 class="btn btn-lg btn-danger btn-block">Add New Student</h3>
+                            <a href="new_srudent.html" class="btn btn-lg btn-danger btn-block">Add New Student</a>
                         </div>
                     </div>
 
