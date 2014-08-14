@@ -10,6 +10,7 @@
     <body>
 
     <nav class="navbar navbar-inverse" role="navigation">
+
         <div class="my_container">
 
             <div class="navbar-header">
@@ -17,7 +18,10 @@
             </div>
             <div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Dashboard</a></li>
+
+                    <li class="active"><a href="#">
+                            <span class="glyphicon glyphicon-list-alt"></span>
+                            &nbsp; Dashboard</a></li>
 
                 </ul>
             </div>
@@ -30,14 +34,15 @@
                              Administrator <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Settings</a></li>
-                            <li><a href="#">Logout</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-wrench"></span> &nbsp; Settings</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> &nbsp; Logout</a></li>
 
                         </ul>
                     </li>
                 </ul>
                 <form class="navbar-form navbar-right" role="search">
-                    <div class="form-group">
+                    <div class="form-group has-feedback has-feedback-left">
+                        <span class="form-control-feedback glyphicon glyphicon-search"></span>
                         <input type="text" class="form-control" placeholder="Search">
                     </div>
                 </form>
@@ -49,7 +54,9 @@
     </nav>
 
         <div class="container my_container">
+
             <div class="panel panel-info">
+
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-lg-8">
