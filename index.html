@@ -20,9 +20,9 @@
         <div>
             <ul class="nav navbar-nav">
 
-                <li class="active"><a href="index.html">
+                <li class="active"><a href="#">
                     <span class="glyphicon glyphicon-list-alt"></span>
-                    Dashboard</a></li>
+                    &nbsp; Dashboard</a></li>
 
             </ul>
         </div>
@@ -61,7 +61,7 @@
         <div class="panel-heading">
             <div class="row">
                 <div class="col-lg-8">
-                    <h2> Add Student</h2>
+                    <h2><span class="glyphicon glyphicon-list"></span> Dashboard</h2>
                 </div>
                 <div class="col-lg-offset-1"></div>
                 <div class="col-lg-4">
@@ -82,8 +82,8 @@
                     </a>
                     <a href="student_status.html" class="list-group-item"><span class="badge alert-danger">Average</span>Student Status</a>
                     <a href="add_student.html" class="list-group-item"><span class="badge alert-info"><span class="glyphicon glyphicon-plus-sign"></span></span>Add Student</a>
-                    <a href="#" class="list-group-item"><span class="badge alert-info"><span class="glyphicon glyphicon-plus-sign"></span></span>Add Course</a>
-                    <a href="#" class="list-group-item"><span class="badge alert-info"><span class="glyphicon glyphicon-plus-sign"></span></span>Add Trainer</a>
+                    <a href="add_course.html" class="list-group-item"><span class="badge alert-info"><span class="glyphicon glyphicon-plus-sign"></span></span>Add Course</a>
+                    <a href="add_trainer.html" class="list-group-item"><span class="badge alert-info"><span class="glyphicon glyphicon-plus-sign"></span></span>Add Trainer</a>
                     <a href="#" class="list-group-item"><span class="badge alert-info"><span class="glyphicon glyphicon-align-justify"></span></span>Result</a>
                     <a href="#" class="list-group-item"><span class="badge alert-success">88%</span>Course Status</a>
                     <a href="#" class="list-group-item"><span class="badge">1</span>New Mail</a>
@@ -97,45 +97,79 @@
 
                 <div class="col-lg-8">
 
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            Add Student
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    Student Page
+                                </div>
+                                <div class="panel-body">
+                                    All about student
+                                    <p>
+                                        <a href="#" class="btn btn-primary pull-right" role="button">
+                                            Show
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="panel-body">
-                            <form class="form-horizontal" role="form">
-                                <div class="form-group">
-                                    <label for="firstname" class="col-sm-3 control-label">First Name</label>
-                                    <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="firstname"
-                                               placeholder="Enter First Name">
-                                    </div>
+
+                        <div class="col-lg-offset-1"></div>
+
+                        <div class="col-lg-6">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    Course Page
                                 </div>
-                                <div class="form-group">
-                                    <label for="lastname" class="col-sm-3 control-label">Last Name</label>
-                                    <div class="col-sm-9">
-                                        <input type="text" class="form-control" id="lastname"
-                                               placeholder="Enter Last Name">
-                                    </div>
+                                <div class="panel-body">
+                                    Course Status
+                                    <p>
+                                        <a href="#" class="btn btn-primary pull-right" role="button">
+                                            Go to..
+                                        </a>
+                                    </p>
                                 </div>
-                                <div class="form-group">
-                                    <div class="col-sm-offset-2 col-sm-10">
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox"> Remember me
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-sm-offset-2 col-sm-10">
-                                        <button type="submit" class="btn btn-default">Sign in</button>
-                                    </div>
-                                </div>
-                            </form>
+                            </div>
                         </div>
+
                     </div>
 
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    Challenge page
+                                </div>
+                                <div class="panel-body">
+                                    Different Problem
+                                    <p>
+                                        <a href="#" class="btn btn-primary pull-right" role="button">
+                                            Go to..
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-lg-offset-1"></div>
+
+                        <div class="col-lg-6">
+                            <div class="panel panel-danger">
+                                <div class="panel-heading">
+                                    Project Threat
+                                </div>
+                                <div class="panel-body">
+                                    Different obstacles
+                                    <p>
+                                        <a href="#" class="btn btn-primary pull-right" role="button">
+                                            Go to..
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
@@ -158,4 +192,3 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
-

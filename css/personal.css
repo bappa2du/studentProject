@@ -1,8 +1,4 @@
-.my_container
-{
-    width: 70%;
-    margin: 0px auto;
-}
+
 .panel-footer {
     padding: 10px 15px;
     background-color: deepskyblue;
@@ -15,4 +11,25 @@
     color: #000000;
     background-color: deepskyblue;
 
+}
+@media screen and (max-width: 500px) {
+    .my_container
+    {
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .my_container
+    {
+        width: 70%;
+        margin: 0px auto;
+    }
+}
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
